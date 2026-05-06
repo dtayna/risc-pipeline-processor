@@ -2,12 +2,12 @@ CXX = g++
 CXXFLAGS = -I/usr/include -lsystemc -O2 -std=c++17 -fPIC
 
 
-COMPONENTS = alu.cpp register_db.cpp program_counter.cpp data_memory.cpp
+COMPONENTS = components/alu.cpp components/register_db.cpp components/program_counter.cpp components/data_memory.cpp
 TARGET = processador_sim
-SRCS = $(COMPONENTS) main.cpp
+SRCS = $(COMPONENTS) src/main.cpp
 
 ASSEMBLER_BIN = ./assembler
-ASSEMBLER_SRC = pre_proccess.cpp
+ASSEMBLER_SRC = src/pre_proccess.cpp
 ASM_INPUT = algs/alg5_stall.txt # -----
 BIN_OUTPUT = programa.bin
 

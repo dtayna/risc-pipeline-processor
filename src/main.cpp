@@ -1,6 +1,6 @@
 #include <systemc.h>
 #include <iostream>
-#include "processor.h"
+#include "../core/processor.h"
 
 int sc_main(int argc, char* argv[]) {
     const char* program_file = "programa.bin";

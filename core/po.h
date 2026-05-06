@@ -2,11 +2,11 @@
 #define PO_H
 
 #include <systemc.h>
-#include "alu.h"
-#include "register_db.h"
-#include "data_memory.h"
-#include "instruction_memory.h"
-#include "program_counter.h"
+#include "../components/alu.h"
+#include "../components/register_db.h"
+#include "../components/data_memory.h"
+#include "../components/instruction_memory.h"
+#include "../components/program_counter.h"
 
 SC_MODULE(PO) {
     sc_in<bool> clk;
