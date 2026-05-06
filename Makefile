@@ -8,7 +8,7 @@ SRCS = $(COMPONENTS) src/main.cpp
 
 ASSEMBLER_BIN = ./assembler
 ASSEMBLER_SRC = src/pre_proccess.cpp
-ASM_INPUT = algs/alg5_stall.txt # -----
+ASM_INPUT = tests/alg5_stall.txt # -----
 BIN_OUTPUT = programa.bin
 
 all: $(TARGET)
