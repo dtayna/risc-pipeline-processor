@@ -1,0 +1,8 @@
+ADDI R1, 3
+ADDI R2, 1
+SUB R1, R1, R2
+JZ 5
+J 2
+ST R1, 10
+J 6
+

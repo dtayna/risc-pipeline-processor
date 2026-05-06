@@ -1,0 +1,10 @@
+ADDI R2, 10
+ADDI R3, 3
+ADDI R5, 7
+NOP
+ADD R1, R2, R3
+SUB R4, R1, R5
+
+
+
+

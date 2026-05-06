@@ -1,0 +1,7 @@
+ADDI R4, R0, 3
+ST   R4, 10
+NOP
+NOP
+NOP
+LD   R1, 10
+ADD  R3, R1, R4
